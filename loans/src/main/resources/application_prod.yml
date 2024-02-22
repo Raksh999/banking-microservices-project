@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+cards:
+  message: "Welcome to bank cards related QA APIs"
+  contactDetails:
+    name: "Bhaskar Chauhan "
+    email: "Bhaskar123@gmail.com"
+  onCallSupport:
+    -(888)999-1234

@@ -1,0 +1,9 @@
+build:
+  version: "3.0"
+cards:
+  message: "Welcome to bank Loans related QA APIs"
+  contactDetails:
+    name: "raksh patel -Developer "
+    email: "raksh123@gmail.com"
+  onCallSupport:
+    -(555)4444-1234

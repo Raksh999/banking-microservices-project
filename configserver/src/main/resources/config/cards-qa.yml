@@ -1,0 +1,9 @@
+build:
+  version: "2.0"
+cards:
+  message: "Welcome to bank cards related QA APIs"
+  contactDetails:
+    name: "Bhaskar Chauhan "
+    email: "Bhaskar123@gmail.com"
+  onCallSupport:
+    -(888)999-1234
