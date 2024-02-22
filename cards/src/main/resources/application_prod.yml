@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+cards:
+  message: "Welcome to bank cards related Production APIs"
+  contactDetails:
+    name: "Madhav Singh Developer"
+    email: "Madhav123@gmail.com"
+  onCallSupport:
+    -(555)888-9876

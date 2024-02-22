@@ -1,0 +1,9 @@
+build:
+  version: "1.0"
+accounts:
+  message: "Welcome to bank accounts related PROD APIs"
+  contactDetails:
+    name: "Bhaskar chauhan - Production"
+    email: "bhaskar123@gmail.com"
+  onCallSupport:
+    -(444)1234-4245

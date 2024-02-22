@@ -1,0 +1,9 @@
+build:
+  version: "3.0"
+accounts:
+  message: "Welcome to bank accounts related local(dev) APIs"
+  contactDetails:
+    name: "raksh patel -Developer"
+    email: "raksh123@gmail.com"
+  onCallSupport:
+    -(555)555-1234
