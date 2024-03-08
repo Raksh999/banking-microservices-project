@@ -44,9 +44,20 @@ public class AccountsController {
             summary = "Create Account REST API",
             description = "REST API to create a new customer & Account in Bank"
     )
-    @ApiResponse(
-            responseCode = "201",
-            description = "HTTPS status CREATED"
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTPS status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "417",
+                    description = "Expectation Failed"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTPS status INTERNAL SERVER ERROR"
+            )
+    }
     )
     @PostMapping("/create")
     public ResponseEntity<ResponseDto> createAccount(@Valid @RequestBody CustomerDto customerDto){
